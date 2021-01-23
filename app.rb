@@ -10,8 +10,12 @@ class App < Sinatra::Base
     erb :reversed
   end
 
-  get '/friends' do
-    # Write your code here!
+  
+    get '/friends' do
+  @friends = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
+ 
+  erb :friends
+end
 
   end
 end
