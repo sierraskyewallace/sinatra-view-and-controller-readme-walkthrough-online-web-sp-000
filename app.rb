@@ -18,5 +18,4 @@ end
  
   erb :friends
 end
-
   end
